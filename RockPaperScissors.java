@@ -18,7 +18,7 @@ public class RockPaperScissors {
             }
             System.out.println(PlayerMove + " is not a valid move");
         }
-        System.out.println(CompMove + PlayerMove);
+        System.out.println("Computer Chose: " + CompMove + " You Chose: " +PlayerMove);
 
         if (PlayerMove.equals(CompMove)) {
             System.out.println("It's a Tie!");
