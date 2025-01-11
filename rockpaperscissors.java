@@ -1,5 +1,6 @@
 //This is just a rock paper scissors game... hope it works well..
 import java.util.Random;
+import java.util.Scanner;
 
 public class RockPaperSissors {
     public static void main(String[] args) {
