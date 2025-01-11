@@ -13,7 +13,7 @@ public class RockPaperScissors {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Please select your move(r for rock, p for paper, s for scissors):");
             PlayerMove = scanner.nextLine();
-            if (PlayerMove.equals('r') || PlayerMove.equals('p') || PlayerMove.equals('s')) {
+            if (PlayerMove.equals("r") || PlayerMove.equals("p") || PlayerMove.equals("s")) {
                 break;
             }
             System.out.println(PlayerMove + " is not a valid move");
