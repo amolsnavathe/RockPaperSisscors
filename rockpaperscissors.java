@@ -1,4 +1,4 @@
-//This is just a rock paper scissors game... hope it works well
+//This is just a rock paper scissors game... hope it works well..
 import java.util.Random;
 
 public class RockPaperSissors {
