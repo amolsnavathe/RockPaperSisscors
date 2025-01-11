@@ -4,7 +4,7 @@ import java.util.Random;
 public class RockPaperSissors {
     public static void main(String[] args) {
 
-        String [] rps = 'r', 'p', 's';
+        String [] rps = {"r", "p", "s"};
         String CompMove = rps[new Random(). nextInt(rps.length)];
         String PlayerMove;
 
